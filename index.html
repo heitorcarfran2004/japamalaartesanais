@@ -1,0 +1,847 @@
+<!doctype html>
+<!-- LP de "50 Projetos de Japamalas Artesanais" (PT-BR). Adaptada em 06/11/2026 da LP das Guias de Contas
+     (funis/guias-de-contas): mesma estrutura, ritmo de secoes, botoes, oferta e back redirect (index -> promo.html).
+     Head/scripts no padrao do Terco de Pulso (funis/tercos-de-pulso). Todas as imagens em img/ sao do entregavel real
+     (capa D1 e paginas), geradas por _geracao/imagens.cjs, sem IA. Sem bonus e sem order bump: a secao de bonus do
+     molde virou "em todo projeto" (o que ja esta no PDF). Depoimentos: escondidos ate ter print real. -->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Sem pixel da Meta e sem UTMify nesta oferta (decisão do Heitor, 06/11). Só o CashFlow. CashFlow (rastreamento): MESMO ID de oferta do Terco de Pulso (o=8876957f...), como pedido. Trocar quando houver o desta oferta. -->
+<script src="https://cashflow.mentoriaprocesso.com/t/p.js?w=8bf6383c-9940-4837-a9d9-6e3cc6dcce06&o=8876957f-c2c7-4450-9404-2d2200de597c" data-offer="8876957f-c2c7-4450-9404-2d2200de597c" data-nowprocket data-no-minify="1" data-no-optimize="1" data-cfasync="false" async></script>
+<title>50 Projetos de Japamalas Artesanais Para Fazer em Casa</title>
+<meta name="description" content="50 japamalas e mini japamalas com foto da peça pronta, medidas, materiais, o mapa da contagem das 108 contas e o passo a passo foto por foto, do primeiro nó até a borla.">
+<meta name="theme-color" content="#3A1F47">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="50 Projetos de Japamalas Artesanais Para Fazer em Casa">
+<meta property="og:description" content="50 japamalas e mini japamalas passo a passo, do primeiro nó até a borla.">
+<meta property="og:image" content="img/capa.webp">
+<!-- fontes servidas pelo próprio site (os mesmos arquivos do Google Fonts): sem as 2 conexões externas -->
+<link rel="preload" as="font" type="font/woff2" href="fonts/playfair-display-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/inter-latin.woff2" crossorigin>
+<style>
+@font-face{font-family:'Inter';font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/inter-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/inter-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:600;font-display:swap;src:url(fonts/playfair-display-italic-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Playfair Display';font-style:italic;font-weight:600;font-display:swap;src:url(fonts/playfair-display-italic-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:600 700;font-display:swap;src:url(fonts/playfair-display-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:600 700;font-display:swap;src:url(fonts/playfair-display-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+/* reserva com as medidas da fonte final: o texto não pula quando ela chega (CLS) */
+@font-face{font-family:"Inter Reserva";font-weight:400 500;src:local("Arial"),local("ArialMT");size-adjust:105%;ascent-override:92%;descent-override:23%;line-gap-override:0%}
+@font-face{font-family:"Inter Reserva";font-weight:600 800;src:local("Arial Bold"),local("Arial-BoldMT");size-adjust:103%;ascent-override:94%;descent-override:23.4%;line-gap-override:0%}
+@font-face{font-family:"Playfair Reserva";font-weight:600 700;src:local("Georgia Bold"),local("Georgia-Bold");size-adjust:88.2%;ascent-override:122.6%;descent-override:28.4%;line-gap-override:0%}
+</style>
+<!-- a imagem do hero é o elemento de LCP: pré-carrega -->
+<link rel="preload" as="image" href="img/hero-460.webp"
+      imagesrcset="img/hero-460.webp 460w, img/hero-760.webp 760w, img/hero-1200.webp 1200w"
+      imagesizes="(max-width:880px) 92vw, 46vw" fetchpriority="high">
+
+<!-- ============================================================
+     O QUE TROCAR ANTES DE SUBIR
+       1. CHECKOUT  -> constante CHECKOUT logo abaixo (R$ 17,90)
+       (sem pixel da Meta e sem UTMify nesta oferta: decisão do Heitor em 06/11; só o CashFlow no topo)
+       2. SAÍDA     -> LINK_SAIDA (back redirect) já ligado em promo.html (R$ 9,90, checkout na promo.html)
+     ============================================================ -->
+<script>
+  // 1. CHECKOUT (Wiapy). Plano único de R$ 17,90: 50 projetos em PDF.
+  //    Troque SÓ esta linha. Todos os botões de compra da página leem daqui.
+  window.CHECKOUT = 'TROCAR_CHECKOUT_1790';
+
+  // 4. BACK REDIRECT: página para onde vai quem tenta sair. Vazio = desligado.
+  //    Caminho relativo: funciona no localhost e publicado. Oferta de saída R$ 9,90.
+  window.LINK_SAIDA = 'promo.html';
+</script>
+
+<!-- back redirect: quem tenta sair vai para a oferta de saída (só se LINK_SAIDA existir) -->
+<script>
+  // Guarda: sem ela, sair rumo ao checkout dispararia o popstate e jogaria a pessoa
+  // na oferta de saída em vez do pagamento.
+  window.__indoParaCheckout = false;
+
+  (function () {
+    if (!window.LINK_SAIDA) return;
+    var url = window.LINK_SAIDA.trim() +
+      (window.LINK_SAIDA.indexOf('?') > 0 ? '&' : '?') +
+      document.location.search.replace('?', '').toString();
+    history.pushState({}, '', location.href);
+    history.pushState({}, '', location.href);
+    history.pushState({}, '', location.href);
+    window.addEventListener('popstate', function () {
+      if (window.__indoParaCheckout) return;
+      setTimeout(function () { location.href = url; }, 1);
+    });
+  })();
+
+  document.addEventListener('DOMContentLoaded', function () {
+    // Botões de compra: recebem o link do CHECKOUT. Enquanto for placeholder,
+    // avisam em vez de levar para uma página quebrada.
+    // (novo em relação às Guias) As UTMs da URL vão junto para o checkout, sem duplicar
+    // parâmetro, porque esta oferta não usa a UTMify.
+    var q = new URLSearchParams(location.search), link = window.CHECKOUT;
+    if (/^https?:/.test(link)) { var u = new URL(link); q.forEach(function (v, k) { if (!u.searchParams.has(k)) u.searchParams.set(k, v); }); link = u.toString(); }
+    document.querySelectorAll('.ir-checkout').forEach(function (a) {
+      a.setAttribute('href', link);
+      a.addEventListener('click', function (e) {
+        if (window.CHECKOUT.indexOf('TROCAR') !== -1) {
+          e.preventDefault();
+          alert('Link de checkout ainda não configurado (constante CHECKOUT no topo do index.html).');
+          return;
+        }
+        window.__indoParaCheckout = true;
+        if (window.fbq) fbq('track', 'InitiateCheckout');
+      });
+    });
+    // ESTE SELETOR ANDA JUNTO COM O GATEWAY. Ao trocar de gateway, trocar o domínio
+    // aqui também, senão a saída dispara em cima de quem está indo pagar.
+    document.querySelectorAll('a[href*="pay.wiapy.com"]').forEach(function (a) {
+      a.addEventListener('click', function () { window.__indoParaCheckout = true; });
+    });
+    // âncoras internas por scroll programático: não mexem no histórico, então
+    // não disparam o back redirect por engano
+    document.querySelectorAll('.ir-oferta').forEach(function (b) {
+      b.addEventListener('click', function (e) {
+        e.preventDefault();
+        var alvo = document.getElementById('oferta');
+        if (alvo) alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  });
+</script>
+
+<style>
+  :root{
+    --roxo:#3A1F47;        /* principal: o roxo-ameixa da capa D1 (ametista) */
+    --roxo-2:#4B2B5B;
+    --roxo-esc:#26132F;
+    --roxo-texto:#D3C4DB;  /* texto de apoio sobre o roxo */
+    --dourado:#C6A15B;      /* detalhes e realces */
+    --dourado-esc:#9C7838;
+    --dourado-claro:#E2C27F;
+    --creme:#FAF5EE;        /* fundo */
+    --creme-2:#F1E8DC;
+    --borda:#E8DCCB;
+    --tinta:#2A1F2E;
+    --cinza:#685D6C;
+    --branco:#fff;
+    --sans:"Inter","Inter Reserva",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --serif:"Playfair Display","Playfair Reserva",Georgia,"Times New Roman",serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{background:var(--creme);color:var(--tinta);font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  img{max-width:100%;display:block}
+  .wrap{width:100%;max-width:1100px;margin:0 auto;padding:0 20px}
+  .estreito{max-width:800px}
+  section{padding:clamp(56px,7vw,92px) 0}
+  .centro{text-align:center}
+
+  h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.16;letter-spacing:-.2px;color:var(--roxo)}
+  /* a Playfair usa algarismos "antigos" (o 60 vira 6o): força os alinhados em tudo que é serifado */
+  h1,h2,h3,.stat b,.plano-preco,.plano-nome,.selo b,.duplo-col b,.txt-bonus b,.problema b,.transicao{font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
+  h1{font-size:clamp(31px,5vw,52px)}
+  h2{font-size:clamp(26px,3.8vw,40px)}
+  h3{font-size:clamp(18px,2.1vw,21px)}
+  .ouro{color:var(--dourado-esc);font-style:italic}
+  .sub{font-size:clamp(15.5px,1.9vw,18px);color:var(--cinza);max-width:680px}
+  .centro .sub{margin-left:auto;margin-right:auto}
+
+  /* tag de seção: letras espaçadas em dourado, como o "WORKBOOK DIGITAL" do entregável */
+  .tag{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:2.4px;
+    text-transform:uppercase;color:var(--dourado-esc)}
+  .tag::before,.tag::after{content:"";width:22px;height:1px;background:currentColor;opacity:.7}
+  .tag.clara{color:var(--dourado-claro)}
+  /* ornamento: linha · losango · linha */
+  .orn{display:flex;align-items:center;justify-content:center;gap:10px;margin:14px auto 18px;color:var(--dourado)}
+  .orn i{display:block;width:46px;height:1px;background:currentColor}
+  .orn b{width:7px;height:7px;transform:rotate(45deg);border:1.5px solid currentColor}
+
+  .ico{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+  /* ---------- BARRA ---------- */
+  .barra{background:var(--roxo-esc);color:var(--creme);text-align:center;padding:11px 16px 12px;border-bottom:1px solid rgba(198,161,91,.35)}
+  .barra .l1{font-size:12px;font-weight:800;letter-spacing:2.6px;text-transform:uppercase;color:var(--dourado-claro)}
+  .barra .l2{font-size:14px;font-weight:500;margin-top:2px;opacity:.95}
+  @media(max-width:520px){.barra .l1{font-size:11px;letter-spacing:1.8px}.barra .l2{font-size:13px}}
+
+  /* ---------- BOTÃO ---------- */
+  .btn{display:inline-block;position:relative;overflow:hidden;isolation:isolate;
+    background:linear-gradient(180deg,#3A8A5C 0%,#2C7049 55%,#225A3A 100%);color:#fff;
+    font-weight:800;font-size:clamp(15.5px,2vw,18px);letter-spacing:.5px;padding:19px 40px;border-radius:12px;
+    text-decoration:none;text-align:center;border:none;cursor:pointer;font-family:inherit;line-height:1.2;
+    box-shadow:0 8px 22px rgba(34,90,58,.32),inset 0 1px 0 rgba(255,255,255,.25);
+    transition:transform .16s,box-shadow .16s,filter .16s}
+  .btn:hover{transform:translateY(-2px);filter:brightness(1.06);box-shadow:0 12px 28px rgba(34,90,58,.4),inset 0 1px 0 rgba(255,255,255,.25)}
+  /* reflexo discreto: uma faixa clara atravessa o botão a cada 4 s */
+  .btn::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;z-index:-1;pointer-events:none;
+    background:linear-gradient(105deg,transparent 0%,rgba(255,255,255,.22) 50%,transparent 100%);
+    animation:reflexo 4s ease-in-out infinite}
+  @keyframes reflexo{0%,70%{left:-60%}100%{left:130%}}
+  @media(prefers-reduced-motion:reduce){.btn::after{animation:none;display:none}}
+  .btn.full{width:100%}
+  @media(max-width:520px){.btn{width:100%;padding:18px 20px}}
+  .selos{display:flex;gap:8px 16px;justify-content:center;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--cinza)}
+  .selos span{display:inline-flex;align-items:center;gap:6px}
+  .selos .ico{width:16px;height:16px;color:var(--dourado-esc)}
+
+  /* ---------- HERO ---------- */
+  .hero{background:radial-gradient(ellipse at 70% 30%,#FFFDF7 0%,var(--creme) 60%);padding:clamp(30px,5vw,58px) 0 clamp(52px,6vw,76px)}
+  .hero-grid{display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"topo img" "btn img" "cards img";
+    gap:0 clamp(24px,4vw,54px);align-items:center}
+  .hero-topo{grid-area:topo;text-align:center}
+  .hero-img{grid-area:img}
+  .hero-cards{grid-area:cards}
+  .hero-btn{grid-area:btn;margin-top:24px;text-align:center}
+  .hero h1{margin:14px 0 16px;font-size:clamp(32px,5.2vw,54px)}
+  .hero h1 .ouro{display:block}
+  .hero .sub{margin:0 auto;font-size:clamp(16px,2vw,19px)}
+  .hero-img img{width:100%;height:auto;margin:0 auto}
+  /* cards do hero: o exemplo do Doc (image2): 2 x 2, creme, número verde em cima */
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:28px}
+  .stat{background:#FCF9F2;border:1px solid var(--borda);border-radius:14px;padding:16px 10px 14px;text-align:center;
+    box-shadow:0 2px 0 rgba(198,161,91,.12)}
+  .stat b{display:block;font-family:var(--serif);font-size:clamp(26px,3.2vw,32px);color:var(--roxo);font-weight:700;line-height:1.05}
+  .stat span{display:block;font-size:13.5px;color:var(--cinza);margin-top:4px}
+  @media(max-width:880px){
+    .hero-grid{grid-template-columns:1fr;grid-template-areas:"topo" "img" "btn" "cards"}
+    .hero-img{margin:18px auto 0;max-width:520px}
+    .stats{margin-top:20px}
+  }
+
+  /* ---------- DORES ---------- */
+  .dores{background:var(--roxo);color:var(--creme);position:relative}
+  .dores h2{color:var(--creme)}
+  .d-topo{text-align:center;max-width:820px;margin:0 auto}
+  .problemas{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,1.8vw,20px);max-width:980px;margin:clamp(38px,5vw,56px) auto 0}
+  .problema{background:rgba(255,255,255,.05);border:1px solid rgba(198,161,91,.28);border-radius:16px;padding:26px 24px}
+  .problema .ico{width:30px;height:30px;color:var(--dourado-claro);margin-bottom:14px}
+  .problema b{display:block;font-family:var(--serif);font-size:19px;font-weight:600;color:#fff;margin-bottom:8px;line-height:1.3}
+  .problema p{font-size:15px;line-height:1.58;color:var(--roxo-texto)}
+  .transicao{text-align:center;max-width:720px;margin:clamp(38px,5vw,56px) auto 0;font-family:var(--serif);font-style:italic;
+    font-size:clamp(18px,2.2vw,22px);line-height:1.55;color:var(--creme)}
+  @media(max-width:820px){.problemas{grid-template-columns:1fr;max-width:520px}}
+
+  /* ---------- AMOSTRA (carrossel de páginas) ---------- */
+  .amostra{background:var(--branco);overflow:hidden}
+  .trilho{display:flex;gap:18px;margin-top:38px;padding:6px 0 18px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .trilho::-webkit-scrollbar{display:none}
+  .trilho figure{flex:0 0 clamp(236px,30vw,310px);margin:0}
+  .trilho img{width:100%;height:auto;border-radius:10px;border:1px solid var(--borda);background:#fff;
+    box-shadow:0 12px 28px rgba(42,21,52,.14)}
+  .dica-arraste{font-size:13px;color:var(--cinza);margin-top:6px}
+  .partes{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:34px;text-align:left}
+  .parte{background:var(--creme);border:1px solid var(--borda);border-radius:14px;padding:20px 18px}
+  .parte .ico{color:var(--dourado-esc);width:28px;height:28px;margin-bottom:10px}
+  .parte b{display:block;font-size:13.5px;font-weight:800;letter-spacing:.8px;color:var(--roxo);margin-bottom:5px;line-height:1.3}
+  .parte span{font-size:14.5px;color:var(--cinza);line-height:1.5;display:block}
+  @media(max-width:860px){.partes{grid-template-columns:1fr 1fr}}
+  @media(max-width:420px){.parte{padding:16px 14px}.parte span{font-size:13.5px}}
+
+  /* ---------- BENEFÍCIOS ---------- */
+  .beneficios{background:var(--creme)}
+  .fotos{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:34px}
+  .fotos img{width:100%;height:auto;aspect-ratio:300/460;object-fit:cover;background:#FAF5EE;border-radius:12px;border:1px solid var(--borda)}
+  @media(max-width:760px){.fotos{grid-template-columns:repeat(3,1fr);gap:8px}}
+  .bens{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px;text-align:left}
+  .bem{background:#fff;border:1px solid var(--borda);border-radius:16px;padding:24px 22px;display:flex;gap:14px;align-items:flex-start}
+  .bem .circ{width:46px;height:46px;border-radius:50%;background:var(--roxo);color:var(--dourado-claro);flex:none;
+    display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 4px rgba(198,161,91,.22)}
+  .bem .circ .ico{width:22px;height:22px}
+  .bem b{display:block;font-size:13.5px;font-weight:800;letter-spacing:.7px;color:var(--roxo);margin-bottom:6px;line-height:1.35}
+  .bem span{font-size:14.5px;color:var(--cinza);line-height:1.55;display:block}
+  @media(max-width:900px){.bens{grid-template-columns:1fr 1fr}}
+  @media(max-width:620px){.bens{grid-template-columns:1fr}}
+
+  /* ---------- O QUE VAI RECEBER ---------- */
+  .receber{background:var(--branco)}
+  .cats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px;text-align:left}
+  .cat{background:var(--creme);border:1px solid var(--borda);border-radius:18px;padding:26px 24px;position:relative;overflow:hidden}
+  .cat::before{content:"";position:absolute;left:0;top:0;right:0;height:4px;background:linear-gradient(90deg,var(--dourado),var(--dourado-claro))}
+  .cat .ico{color:var(--dourado-esc);width:32px;height:32px;margin-bottom:12px}
+  .cat b{display:block;font-size:14px;font-weight:800;letter-spacing:.8px;color:var(--roxo);margin-bottom:8px;line-height:1.35}
+  .cat span{font-size:15px;color:var(--cinza);line-height:1.58;display:block}
+  @media(max-width:860px){.cats{grid-template-columns:1fr;max-width:560px;margin-left:auto;margin-right:auto}}
+  /* card duplo: o exemplo do Doc (image1): título, duas colunas (PDF | app) e a faixa verde */
+  .duplo{max-width:860px;margin:22px auto 0;background:var(--creme);border:1px solid var(--borda);border-radius:20px;
+    padding:26px 22px 22px;box-shadow:0 14px 36px rgba(42,21,52,.08)}
+  .duplo-topo{display:flex;align-items:center;justify-content:center;gap:10px;color:var(--roxo)}
+  .duplo-topo .ico{color:var(--dourado-esc)}
+  .duplo-topo b{font-size:14.5px;font-weight:800;letter-spacing:.8px}
+  .duplo-sub{font-size:15px;color:var(--cinza);max-width:600px;margin:8px auto 0;line-height:1.55}
+  .duplo-cols{display:grid;grid-template-columns:1fr 1fr;margin:20px 0 18px}
+  .duplo-col{padding:6px 14px;text-align:center}
+  .duplo-col + .duplo-col{border-left:1px solid var(--borda)}
+  .duplo-col .ico{margin:0 auto 8px;color:var(--roxo);width:26px;height:26px}
+  .duplo-col b{display:block;font-family:var(--serif);font-size:19px;color:var(--roxo);margin-bottom:4px}
+  .duplo-col span{font-size:14px;color:var(--cinza);line-height:1.5;display:block}
+  .faixa{background:var(--roxo);color:var(--creme);border-radius:12px;padding:14px 12px;font-size:13px;font-weight:800;letter-spacing:1px;text-align:center}
+  .faixa em{font-style:normal;color:var(--dourado-claro);padding:0 4px}
+  @media(max-width:520px){.duplo-col{padding:4px 8px}.duplo-col b{font-size:17px}.faixa{font-size:11.5px;letter-spacing:.5px}}
+
+  /* ---------- BÔNUS ---------- */
+  .bonus{background:var(--roxo);color:var(--creme)}
+  .bonus h2{color:var(--creme)}
+  .bonus-lista{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:40px;text-align:left}
+  .card-bonus{background:rgba(255,255,255,.05);border:1px solid rgba(198,161,91,.32);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+  .capa-bonus{line-height:0;background:#efe7d3}
+  .capa-bonus img{width:100%;height:auto}
+  .txt-bonus{padding:20px 22px 22px}
+  .txt-bonus .num-b{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:800;letter-spacing:1.6px;color:var(--dourado-claro);margin-bottom:6px}
+  .txt-bonus .num-b .ico{width:16px;height:16px}
+  .txt-bonus b{display:block;font-family:var(--serif);font-size:20px;font-weight:600;color:#fff;margin-bottom:8px;line-height:1.3}
+  .txt-bonus span{font-size:14.5px;color:var(--roxo-texto);line-height:1.58;display:block}
+  @media(max-width:720px){.bonus-lista{grid-template-columns:1fr}}
+
+  /* ---------- DEPOIMENTOS (carrossel em leque, igual ao da miçanga) ---------- */
+  .deps{background:var(--creme)}
+  .dep-palco{position:relative;margin-top:40px;height:clamp(500px,76vw,740px);display:flex;align-items:center;justify-content:center;overflow:hidden}
+  .dep-trilho{position:relative;width:100%;height:100%}
+  .dep-slide{position:absolute;top:50%;left:50%;margin:0;width:clamp(270px,36vw,400px);
+    transform:translate(-50%,-50%) scale(.78);opacity:0;pointer-events:none;
+    transition:transform .5s cubic-bezier(.25,.9,.3,1),opacity .5s ease;z-index:1}
+  .dep-slide img{width:100%;height:auto;border-radius:16px;border:1px solid var(--borda);background:#fff;box-shadow:0 14px 34px rgba(42,21,52,.16)}
+  .dep-slide.centro{transform:translate(-50%,-50%) scale(1);opacity:1;z-index:3}
+  .dep-slide.esq{transform:translate(calc(-50% - 74%),-50%) scale(.8);opacity:.45;z-index:2}
+  .dep-slide.dir{transform:translate(calc(-50% + 74%),-50%) scale(.8);opacity:.45;z-index:2}
+  /* cartão de exemplo: só aparece com ?previa=1, para ver a estrutura antes dos prints reais */
+  .dep-exemplo{aspect-ratio:9/16;border-radius:16px;border:2px dashed var(--dourado);background:#fff;
+    display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;color:var(--dourado-esc);font-weight:700;font-size:15px}
+  .dep-seta{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:46px;height:46px;border-radius:50%;
+    border:1px solid var(--borda);background:#fff;color:var(--roxo);font-size:26px;line-height:1;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;font-family:inherit;box-shadow:0 6px 18px rgba(42,21,52,.16)}
+  .dep-seta:hover{background:var(--roxo);color:#fff}
+  .dep-seta.ant{left:max(12px,4vw)}
+  .dep-seta.prox{right:max(12px,4vw)}
+  .dep-dots{display:flex;gap:9px;justify-content:center;margin-top:24px}
+  .dep-dots button{width:9px;height:9px;border-radius:50%;border:none;padding:0;background:var(--borda);cursor:pointer;transition:width .2s,background .2s}
+  .dep-dots button[aria-current="true"]{background:var(--dourado);width:26px;border-radius:10px}
+  @media(max-width:600px){
+    .dep-slide.esq{transform:translate(calc(-50% - 62%),-50%) scale(.74);opacity:.32}
+    .dep-slide.dir{transform:translate(calc(-50% + 62%),-50%) scale(.74);opacity:.32}
+    .dep-seta{width:38px;height:38px;font-size:22px}
+  }
+
+  /* ---------- OFERTA ---------- */
+  .oferta{background:var(--branco)}
+  .plano{max-width:520px;margin:40px auto 0;background:#fff;border:2px solid var(--dourado);border-radius:22px;
+    padding:38px 28px 28px;text-align:left;position:relative;box-shadow:0 24px 60px rgba(42,21,52,.14)}
+  .fita{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--roxo);color:var(--dourado-claro);
+    font-size:11.5px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;padding:8px 18px;border-radius:100px;white-space:nowrap;
+    border:1px solid var(--dourado)}
+  .plano-nome{font-family:var(--serif);font-size:22px;font-weight:700;color:var(--roxo);text-align:center}
+  .plano-preco{font-family:var(--serif);font-size:clamp(52px,8vw,64px);font-weight:700;color:var(--roxo);line-height:1;margin:14px 0 4px;text-align:center}
+  .plano-preco small{font-family:var(--sans);font-size:22px;font-weight:700;vertical-align:top;margin-right:4px;color:var(--cinza)}
+  .plano-obs{font-size:14px;color:var(--cinza);margin-bottom:22px;text-align:center}
+  .inclui{display:grid;gap:10px;margin-bottom:6px;list-style:none}
+  .inclui li{display:flex;gap:10px;align-items:flex-start;font-size:15px;line-height:1.45}
+  .ckm{width:21px;height:21px;border-radius:50%;background:var(--roxo);color:var(--dourado-claro);flex:none;
+    display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;margin-top:1px}
+  .divisor{border:none;border-top:1px dashed var(--borda);margin:18px 0}
+  .titulo-bonus{font-size:12.5px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;color:var(--dourado-esc);margin-bottom:12px}
+  .lista-bonus{display:grid;gap:9px;margin-bottom:22px;list-style:none}
+  .lista-bonus li{display:flex;gap:9px;font-size:14.5px;line-height:1.45;align-items:flex-start}
+  .lista-bonus .ico{width:18px;height:18px;color:var(--dourado-esc);margin-top:1px}
+
+  /* ---------- GARANTIA ---------- */
+  .garantia{background:var(--creme)}
+  .g-box{display:grid;grid-template-columns:auto 1fr;gap:clamp(22px,3.4vw,40px);align-items:center;background:#fff;
+    border:1px solid var(--borda);border-radius:20px;padding:clamp(28px,4vw,44px);box-shadow:0 14px 36px rgba(42,21,52,.08)}
+  .selo{width:118px;height:118px;border-radius:50%;background:var(--roxo);color:var(--creme);flex:none;position:relative;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 10px 26px rgba(42,21,52,.28)}
+  .selo::before{content:"";position:absolute;inset:6px;border-radius:50%;border:1.5px solid var(--dourado)}
+  .selo b{font-family:var(--serif);font-size:44px;font-weight:700;line-height:1;color:var(--dourado-claro)}
+  .selo span{font-size:12px;letter-spacing:1.6px;text-transform:uppercase;font-weight:700}
+  .g-box h3{margin-bottom:10px}
+  .g-box p{font-size:15.5px;color:var(--cinza);line-height:1.62}
+  @media(max-width:640px){.g-box{grid-template-columns:1fr;text-align:center;justify-items:center}}
+
+  /* ---------- FAQ ---------- */
+  .faq{background:var(--branco)}
+  .lista-faq{max-width:800px;margin:38px auto 0;display:grid;gap:12px;text-align:left}
+  .faq details{background:var(--creme);border:1px solid var(--borda);border-radius:14px;overflow:hidden}
+  .faq summary{padding:19px 22px;font-weight:700;font-size:16px;cursor:pointer;list-style:none;color:var(--tinta);
+    display:flex;justify-content:space-between;align-items:center;gap:14px}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";font-size:24px;color:var(--dourado-esc);font-weight:400;flex:none;line-height:1}
+  .faq details[open] summary::after{content:"–"}
+  .faq details[open] summary{color:var(--roxo)}
+  .faq p{padding:0 22px 20px;font-size:15px;color:var(--cinza);line-height:1.66}
+
+  /* ---------- FINAL + RODAPÉ ---------- */
+  .final{background:var(--roxo);color:var(--creme);text-align:center}
+  .final h2{color:var(--creme);margin-bottom:14px}
+  .final .sub{color:var(--roxo-texto)}
+  .final .btn{margin-top:28px;color:var(--roxo-esc);background:linear-gradient(180deg,#D8B670 0%,var(--dourado) 55%,#B88F45 100%);
+    box-shadow:0 8px 22px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.45)} /* dourado só no rodapé: destaca no fundo verde */
+  .final .btn:hover{box-shadow:0 12px 28px rgba(0,0,0,.34),inset 0 1px 0 rgba(255,255,255,.45)}
+  .final .selos{color:var(--roxo-texto)}
+  .final .selos .ico{color:var(--dourado-claro)}
+  footer{background:var(--roxo-esc);color:#A996B0;text-align:center;padding:30px 20px 34px;font-size:12.5px;line-height:1.8;letter-spacing:.4px}
+  footer a{color:#DCCFE2;text-decoration:none}
+  footer a:hover{color:var(--dourado-claro)}
+  footer .links{font-weight:700;letter-spacing:1.4px;margin-bottom:6px}
+</style>
+</head>
+<body>
+
+<!-- ícones (traço dourado, no lugar dos emojis) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-contas" viewBox="0 0 24 24"><circle cx="12" cy="4" r="1.9"/><circle cx="17.7" cy="6.3" r="1.9"/><circle cx="20" cy="12" r="1.9"/><circle cx="17.7" cy="17.7" r="1.9"/><circle cx="12" cy="20" r="1.9"/><circle cx="6.3" cy="17.7" r="1.9"/><circle cx="4" cy="12" r="1.9"/><circle cx="6.3" cy="6.3" r="1.9"/></symbol>
+  <symbol id="i-linha" viewBox="0 0 24 24"><path d="M4 20 20 4"/><path d="M16.5 4.5 19.5 7.5"/><path d="M4 20c3-1 5-4 8-4s4 3 8 1"/></symbol>
+  <symbol id="i-olho" viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-esquema" viewBox="0 0 24 24"><circle cx="4" cy="12" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="15" cy="12" r="3"/><circle cx="21" cy="12" r="1.5"/><path d="M3 18h7M13 18h8"/></symbol>
+  <symbol id="i-etapas" viewBox="0 0 24 24"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></symbol>
+  <symbol id="i-no" viewBox="0 0 24 24"><path d="M3 12h4c2 0 3-3 5-3s3 3 5 3h4"/><path d="M12 9c-2 0-3 3-1.5 4.5S14 14 14 12"/><path d="m16 18 2 2 4-4"/></symbol>
+  <symbol id="i-escudo" viewBox="0 0 24 24"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.2 7.5 9.5 4.3-1.3 7.5-4.9 7.5-9.5V6L12 3Z"/><path d="m8.8 12 2.2 2.2 4.4-4.4"/></symbol>
+  <symbol id="i-coracao" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.5-7.5-10A4.3 4.3 0 0 1 12 7.5 4.3 4.3 0 0 1 19.5 10c0 5.5-7.5 10-7.5 10Z"/></symbol>
+  <symbol id="i-joia" viewBox="0 0 24 24"><path d="M6 3h12l3 5-9 13L3 8l3-5Z"/><path d="M3 8h18M9 3l3 18M15 3l-3 18"/></symbol>
+  <symbol id="i-brilho" viewBox="0 0 24 24"><path d="M12 3c.6 4.2 2.8 6.4 7 7-4.2.6-6.4 2.8-7 7-.6-4.2-2.8-6.4-7-7 4.2-.6 6.4-2.8 7-7Z"/><path d="M19 15.5c.2 1.4.9 2.1 2.3 2.3-1.4.2-2.1.9-2.3 2.3-.2-1.4-.9-2.1-2.3-2.3 1.4-.2 2.1-.9 2.3-2.3Z"/></symbol>
+  <symbol id="i-livro" viewBox="0 0 24 24"><path d="M12 6.5C10 5 7.5 4.5 4 4.5v13c3.5 0 6 .5 8 2 2-1.5 4.5-2 8-2v-13c-3.5 0-6 .5-8 2Z"/><path d="M12 6.5v13"/></symbol>
+  <symbol id="i-folha" viewBox="0 0 24 24"><path d="M5 19c0-8 5-14 15-14 0 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/></symbol>
+  <symbol id="i-presente" viewBox="0 0 24 24"><rect x="3.5" y="8.5" width="17" height="4" rx="1"/><path d="M5 12.5v8h14v-8M12 8.5v12"/><path d="M12 8.5C10.5 5 7 4.5 7 6.5s3 2 5 2c2 0 5 0 5-2s-3.5-1.5-5 2Z"/></symbol>
+  <symbol id="i-celular" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18.5h2"/></symbol>
+  <symbol id="i-pdf" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></symbol>
+  <symbol id="i-cadeado" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></symbol>
+  <symbol id="i-raio" viewBox="0 0 24 24"><path d="M13 2.5 4.5 13.5H12l-1 8 8.5-11H12l1-8Z"/></symbol>
+</svg>
+
+<!-- ============ BARRA ============ -->
+<div class="barra">
+  <div class="l1">Oferta de lançamento</div>
+  <div class="l2">50 projetos de japamalas por R$ 17,90</div>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-topo">
+      <span class="tag">Japamalas e mini japamalas</span>
+      <h1>50 Projetos de Japamalas Artesanais <span class="ouro">Para Fazer em Casa</span></h1>
+      <p class="sub">Cada projeto com a foto do japamala pronto, as medidas, os materiais, o mapa da contagem das 108 contas e o passo a passo foto por foto, do primeiro nó até a borla. Mesmo que você nunca tenha feito.</p>
+    </div>
+
+    <div class="hero-img">
+      <img src="img/hero-460.webp" srcset="img/hero-460.webp 460w, img/hero-760.webp 760w, img/hero-1200.webp 1200w"
+           sizes="(max-width:880px) 92vw, 46vw" width="1200" height="1080" fetchpriority="high"
+           alt="O material 50 Projetos de Japamalas Artesanais num tablet, num celular e impresso: a capa, o Japamala Clássico de Ametista e o passo a passo da montagem">
+    </div>
+
+    <div class="hero-cards">
+      <div class="stats">
+        <div class="stat"><b>50</b><span>projetos passo a passo</span></div>
+        <div class="stat"><b>108</b><span>contas no mapa da contagem</span></div>
+        <div class="stat"><b>100</b><span>páginas ilustradas</span></div>
+        <div class="stat"><b>8</b><span>fotos em cada montagem</span></div>
+      </div>
+    </div>
+
+    <div class="hero-btn">
+      <a href="#oferta" class="btn ir-oferta">QUERO ACESSAR TUDO!</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ DORES ============ -->
+<section class="dores">
+  <div class="wrap">
+    <div class="d-topo">
+      <span class="tag clara">Já passou por isso?</span>
+      <div class="orn"><i></i><b></b><i></i></div>
+      <h2>Quer fazer o seu japamala, mas não sabe por onde começar?</h2>
+    </div>
+
+    <div class="problemas">
+      <div class="problema">
+        <svg class="ico"><use href="#i-contas"/></svg>
+        <b>Você perde a conta no meio</b>
+        <p>Faz o seu mantra ou o seu Ho'oponopono contando nos dedos, se perde no meio das repetições e começa tudo de novo.</p>
+      </div>
+      <div class="problema">
+        <svg class="ico"><use href="#i-joia"/></svg>
+        <b>O pronto custa caro</b>
+        <p>Na loja, um japamala passa de R$ 100, e você nem sabe quem fez nem com qual energia.</p>
+      </div>
+      <div class="problema">
+        <svg class="ico"><use href="#i-linha"/></svg>
+        <b>Ninguém ensina a parte final</b>
+        <p>Os vídeos mostram as contas, mas pulam o nó entre cada uma, o fechamento na guru e a borla.</p>
+      </div>
+    </div>
+
+    <p class="transicao">Cento e oito contas parecem muita coisa. Mas, com o mapa da contagem e cada passo em foto, o seu primeiro japamala fica pronto numa tarde, na cor e na pedra da sua intenção.</p>
+  </div>
+</section>
+
+<!-- ============ AMOSTRA ============ -->
+<section class="amostra">
+  <div class="wrap centro">
+    <span class="tag">Dê uma olhada no material</span>
+    <div class="orn"><i></i><b></b><i></i></div>
+    <h2>Cada japamala explicado, <span class="ouro">do primeiro nó até a borla!</span></h2>
+  </div>
+  <div class="wrap">
+    <!-- Páginas REAIS do entregável (Downloads\Japamalas\Entregável\Páginas, pag-NNN). Nenhum projeto de pulseira.
+         As 10 aparecem DUAS vezes: a segunda leva é a emenda do loop. Trocar imagem = trocar nas duas levas. -->
+    <div class="trilho" id="paginas">
+      <figure><img src="img/paginas/pag-001.webp" srcset="img/paginas-sm/pag-001.webp 340w, img/paginas-md/pag-001.webp 480w, img/paginas/pag-001.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" decoding="async" alt="Projeto 01, Japamala Clássico de Ametista: foto, materiais, medidas e o mapa da contagem"></figure>
+      <figure><img src="img/paginas/pag-013.webp" srcset="img/paginas-sm/pag-013.webp 340w, img/paginas-md/pag-013.webp 480w, img/paginas/pag-013.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" decoding="async" alt="Projeto 07, Amor: Quartzo Rosa e Pedra da Lua"></figure>
+      <figure><img src="img/paginas/pag-002.webp" srcset="img/paginas-sm/pag-002.webp 340w, img/paginas-md/pag-002.webp 480w, img/paginas/pag-002.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" decoding="async" alt="Projeto 01, página 2: a montagem em 8 fotos, como usar, cuidados e para vender"></figure>
+      <figure><img src="img/paginas/pag-015.webp" srcset="img/paginas-sm/pag-015.webp 340w, img/paginas-md/pag-015.webp 480w, img/paginas/pag-015.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" decoding="async" alt="Projeto 08, Prosperidade: Citrino"></figure>
+      <figure><img src="img/paginas/pag-021.webp" srcset="img/paginas-sm/pag-021.webp 340w, img/paginas-md/pag-021.webp 480w, img/paginas/pag-021.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" decoding="async" alt="Projeto 11, Japamala de Sementes de Açaí"></figure>
+      <figure><img src="img/paginas/pag-031.webp" srcset="img/paginas-sm/pag-031.webp 340w, img/paginas-md/pag-031.webp 480w, img/paginas/pag-031.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" decoding="async" alt="Projeto 16, Mini Japamala de Ametista de 54 contas"></figure>
+      <figure><img src="img/paginas/pag-057.webp" srcset="img/paginas-sm/pag-057.webp 340w, img/paginas-md/pag-057.webp 480w, img/paginas/pag-057.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" decoding="async" alt="Projeto 29, Japamala Ho'oponopono das 4 Frases"></figure>
+      <figure><img src="img/paginas/pag-067.webp" srcset="img/paginas-sm/pag-067.webp 340w, img/paginas-md/pag-067.webp 480w, img/paginas/pag-067.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" decoding="async" alt="Projeto 34, Japamala 7 Chakras"></figure>
+      <figure><img src="img/paginas/pag-064.webp" srcset="img/paginas-sm/pag-064.webp 340w, img/paginas-md/pag-064.webp 480w, img/paginas/pag-064.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" decoding="async" alt="Projeto 32, Japamala de Lava Vulcânica: a montagem em 8 fotos"></figure>
+      <figure><img src="img/paginas/pag-095.webp" srcset="img/paginas-sm/pag-095.webp 340w, img/paginas-md/pag-095.webp 480w, img/paginas/pag-095.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" decoding="async" alt="Projeto 48, Japamala de Lápis-lazúli com Guru Esculpida"></figure>
+      <figure aria-hidden="true"><img src="img/paginas/pag-001.webp" srcset="img/paginas-sm/pag-001.webp 340w, img/paginas-md/pag-001.webp 480w, img/paginas/pag-001.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" alt=""></figure>
+      <figure aria-hidden="true"><img src="img/paginas/pag-013.webp" srcset="img/paginas-sm/pag-013.webp 340w, img/paginas-md/pag-013.webp 480w, img/paginas/pag-013.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" alt=""></figure>
+      <figure aria-hidden="true"><img src="img/paginas/pag-002.webp" srcset="img/paginas-sm/pag-002.webp 340w, img/paginas-md/pag-002.webp 480w, img/paginas/pag-002.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" alt=""></figure>
+      <figure aria-hidden="true"><img src="img/paginas/pag-015.webp" srcset="img/paginas-sm/pag-015.webp 340w, img/paginas-md/pag-015.webp 480w, img/paginas/pag-015.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" alt=""></figure>
+      <figure aria-hidden="true"><img src="img/paginas/pag-021.webp" srcset="img/paginas-sm/pag-021.webp 340w, img/paginas-md/pag-021.webp 480w, img/paginas/pag-021.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" alt=""></figure>
+      <figure aria-hidden="true"><img src="img/paginas/pag-031.webp" srcset="img/paginas-sm/pag-031.webp 340w, img/paginas-md/pag-031.webp 480w, img/paginas/pag-031.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" alt=""></figure>
+      <figure aria-hidden="true"><img src="img/paginas/pag-057.webp" srcset="img/paginas-sm/pag-057.webp 340w, img/paginas-md/pag-057.webp 480w, img/paginas/pag-057.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" alt=""></figure>
+      <figure aria-hidden="true"><img src="img/paginas/pag-067.webp" srcset="img/paginas-sm/pag-067.webp 340w, img/paginas-md/pag-067.webp 480w, img/paginas/pag-067.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" alt=""></figure>
+      <figure aria-hidden="true"><img src="img/paginas/pag-064.webp" srcset="img/paginas-sm/pag-064.webp 340w, img/paginas-md/pag-064.webp 480w, img/paginas/pag-064.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" alt=""></figure>
+      <figure aria-hidden="true"><img src="img/paginas/pag-095.webp" srcset="img/paginas-sm/pag-095.webp 340w, img/paginas-md/pag-095.webp 480w, img/paginas/pag-095.webp 620w" sizes="(max-width:780px) 236px, 310px" width="620" height="876" loading="lazy" alt=""></figure>
+    </div>
+
+    <div class="partes">
+      <div class="parte"><svg class="ico"><use href="#i-olho"/></svg><b>JAPAMALA PRONTO EM DESTAQUE</b><span>A foto da peça pronta com as medidas, antes de começar.</span></div>
+      <div class="parte"><svg class="ico"><use href="#i-esquema"/></svg><b>MAPA DAS 108 CONTAS</b><span>Os 4 grupos de 27 desenhados, pra você não perder a conta.</span></div>
+      <div class="parte"><svg class="ico"><use href="#i-etapas"/></svg><b>8 ETAPAS EM FOTO</b><span>Do corte do fio ao nó entre cada conta, foto por foto.</span></div>
+      <div class="parte"><svg class="ico"><use href="#i-no"/></svg><b>GURU E BORLA</b><span>O fechamento e a borla, a parte que quase ninguém ensina.</span></div>
+    </div>
+
+    <div class="centro" style="margin-top:38px">
+      <a href="#oferta" class="btn ir-oferta">QUERO ACESSAR TUDO!</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BENEFÍCIOS ============ -->
+<section class="beneficios">
+  <div class="wrap centro">
+    <span class="tag">Muito além das contas</span>
+    <div class="orn"><i></i><b></b><i></i></div>
+    <h2>Cada conta no seu lugar. <span class="ouro">Cada uma com a sua oração.</span></h2>
+
+    <!-- fotos dos japamalas prontos: recortes da foto da p1 dos próprios projetos (P01, P07, P11, P34, P08, P48) -->
+    <div class="fotos">
+      <img src="img/fotos/f001.webp" width="300" height="460" loading="lazy" decoding="async" alt="Japamala Clássico de Ametista, pronto">
+      <img src="img/fotos/f013.webp" width="300" height="460" loading="lazy" decoding="async" alt="Japamala de quartzo rosa e pedra da lua, pronto">
+      <img src="img/fotos/f021.webp" width="300" height="460" loading="lazy" decoding="async" alt="Japamala de sementes de açaí, pronto">
+      <img src="img/fotos/f067.webp" width="300" height="460" loading="lazy" decoding="async" alt="Japamala 7 Chakras, pronto">
+      <img src="img/fotos/f015.webp" width="300" height="460" loading="lazy" decoding="async" alt="Japamala de citrino, pronto">
+      <img src="img/fotos/f095.webp" width="300" height="460" loading="lazy" decoding="async" alt="Japamala de lápis-lazúli com guru esculpida, pronto">
+    </div>
+
+    <div class="bens">
+      <div class="bem"><span class="circ"><svg class="ico"><use href="#i-escudo"/></svg></span><div><b>FAÇA MESMO SEM EXPERIÊNCIA</b><span>Cada passo tem foto. Comece pelos projetos de nível Iniciante e vá subindo no seu ritmo.</span></div></div>
+      <div class="bem"><span class="circ"><svg class="ico"><use href="#i-coracao"/></svg></span><div><b>UMA ORAÇÃO EM CADA CONTA</b><span>Quando é você que monta, conta por conta, cada uma já nasce com a sua intenção.</span></div></div>
+      <div class="bem"><span class="circ"><svg class="ico"><use href="#i-joia"/></svg></span><div><b>UMA PEDRA PRA CADA INTENÇÃO</b><span>Ametista pra calma, citrino pra prosperidade, quartzo rosa pro amor, turmalina negra pra proteção.</span></div></div>
+      <div class="bem"><span class="circ"><svg class="ico"><use href="#i-brilho"/></svg></span><div><b>SEMENTE, MADEIRA OU PEDRA</b><span>Tem japamala de açaí, jarina, sândalo, rudraksha, lava vulcânica e cristal, do mais simples ao mais caprichado.</span></div></div>
+      <div class="bem"><span class="circ"><svg class="ico"><use href="#i-presente"/></svg></span><div><b>UM PRESENTE CHEIO DE SIGNIFICADO</b><span>Faça pra mãe, pra filha ou pra uma amiga, rezando por ela em cada uma das 108 contas.</span></div></div>
+      <div class="bem"><span class="circ"><svg class="ico"><use href="#i-folha"/></svg></span><div><b>SE QUISER, VENDA</b><span>Cada projeto traz o custo do material e uma sugestão de quanto cobrar pela peça pronta.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ O QUE VOCÊ VAI RECEBER ============ -->
+<section class="receber">
+  <div class="wrap centro">
+    <span class="tag">O que você vai receber</span>
+    <div class="orn"><i></i><b></b><i></i></div>
+    <h2>Uma coleção completa, <span class="ouro">organizada pra você escolher o seu próximo japamala!</span></h2>
+    <p class="sub" style="margin-top:14px">50 projetos separados por estilo e intenção, dos mais simples aos mais caprichados.</p>
+
+    <div class="cats">
+      <div class="cat"><svg class="ico"><use href="#i-contas"/></svg><b>JAPAMALAS DE 108 CONTAS</b><span>Clássicos com nó entre as contas, pedras de intenção (proteção, amor, prosperidade, calma e foco) e sementes brasileiras como açaí, jarina e lágrima-de-nossa-senhora.</span></div>
+      <div class="cat"><svg class="ico"><use href="#i-brilho"/></svg><b>HO'OPONOPONO, CHAKRAS E LAVA</b><span>O japamala das 4 frases do Ho'oponopono, o dos 7 chakras e os de lava vulcânica, pra usar com óleo essencial.</span></div>
+      <div class="cat"><svg class="ico"><use href="#i-presente"/></svg><b>MINIS, PRESENTES E PEÇAS DE LUXO</b><span>Mini japamalas de 54 contas, modelos pra presentear e peças com marcadoras de prata e guru esculpida, pra quem quer vender.</span></div>
+    </div>
+
+    <div class="duplo">
+      <div class="duplo-topo"><svg class="ico"><use href="#i-celular"/></svg><b>ABRA NO CELULAR OU IMPRIMA</b></div>
+      <p class="duplo-sub">Consulte os projetos pelo celular enquanto monta, ou imprima as páginas pra acompanhar na mesa.</p>
+      <div class="duplo-cols">
+        <div class="duplo-col"><svg class="ico"><use href="#i-pdf"/></svg><b>PDF ilustrado</b><span>Para baixar, consultar e imprimir.</span></div>
+        <div class="duplo-col"><svg class="ico"><use href="#i-celular"/></svg><b>No celular</b><span>Abre em qualquer celular, tablet ou computador.</span></div>
+      </div>
+      <div class="faixa">101 PÁGINAS ILUSTRADAS <em>•</em> PDF <em>•</em> ACESSO IMEDIATO</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EM TODO PROJETO (no lugar dos bônus do molde) ============
+     Não há bônus definidos: estes 4 cartões mostram o que JÁ ESTÁ em cada projeto do PDF.
+     Imagens = recortes reais das páginas (img/dentro/, feitas por _geracao/imagens.cjs). -->
+<section class="bonus">
+  <div class="wrap centro">
+    <span class="tag clara">Em todo projeto</span>
+    <div class="orn"><i></i><b></b><i></i></div>
+    <h2>E cada projeto ainda traz o que quase ninguém ensina!</h2>
+
+    <div class="bonus-lista">
+      <div class="card-bonus">
+        <div class="capa-bonus"><img src="img/dentro/mapa.webp" srcset="img/dentro/mapa-400.webp 400w, img/dentro/mapa.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="O mapa da contagem de um japamala de 108 contas e de um mini japamala de 54"></div>
+        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-esquema"/></svg>MAPA DA CONTAGEM</span><b>Onde fica cada grupo de 27 contas</b><span>As contas desenhadas em volta do japamala, com a guru e a borla, pra você conferir o total em 27, 54, 81 e 108.</span></div>
+      </div>
+      <div class="card-bonus">
+        <div class="capa-bonus"><img src="img/dentro/borla.webp" srcset="img/dentro/borla-400.webp 400w, img/dentro/borla.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="As fotos do fechamento na guru e da borla, passo a passo"></div>
+        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-no"/></svg>FECHAMENTO E BORLA</span><b>Do fechamento na guru até a borla</b><span>Como passar as 2 pontas pela guru, enrolar a borla, amarrar o pescoço e dar o acabamento, foto por foto.</span></div>
+      </div>
+      <div class="card-bonus">
+        <div class="capa-bonus"><img src="img/dentro/usar.webp" srcset="img/dentro/usar-400.webp 400w, img/dentro/usar.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="As faixas Como usar, Cuidados e Para vender de dois projetos"></div>
+        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-coracao"/></svg>COMO USAR E CUIDAR</span><b>Na oração, na meditação e no dia a dia</b><span>Como usar o seu japamala na oração e na meditação, como cuidar dele pra durar e como embalar pra presentear ou vender.</span></div>
+      </div>
+      <div class="card-bonus">
+        <div class="capa-bonus"><img src="img/dentro/preco.webp" srcset="img/dentro/preco-400.webp 400w, img/dentro/preco.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="Nível, tempo, tamanho, custo e preço de venda de dois projetos"></div>
+        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-joia"/></svg>CUSTO E PREÇO</span><b>Quanto custa e quanto cobrar</b><span>O nível, o tempo, o tamanho, o custo do material e uma sugestão de preço de venda de cada japamala.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEPOIMENTOS ============
+     TROCAR: depoimentos. NÃO inventar depoimento. A seção fica ESCONDIDA enquanto não houver nenhum
+     <figure class="dep-slide"> com imagem real dentro de #deps-trilho.
+     Para preencher: salvar os prints em img/depoimentos/dep-01.webp, dep-02.webp... e colar um bloco por print:
+       <figure class="dep-slide"><img src="img/depoimentos/dep-01.webp" width="560" height="996"
+         loading="lazy" decoding="async" alt="Conversa de uma cliente mostrando o japamala que fez com o material"></figure>
+     Para ver a estrutura antes de ter os prints: abrir a página com ?previa=1 -->
+<section class="deps" id="depoimentos" hidden>
+  <div class="wrap centro">
+    <span class="tag">Quem já recebeu</span>
+    <div class="orn"><i></i><b></b><i></i></div>
+    <h2>Veja o que estão dizendo!</h2>
+    <p class="sub" style="margin-top:14px">Depoimentos de quem já recebeu o material e fez o próprio japamala.</p>
+  </div>
+  <div class="dep-palco" id="deps">
+    <button class="dep-seta ant" type="button" aria-label="Depoimento anterior">‹</button>
+    <div class="dep-trilho" id="deps-trilho">
+    </div>
+    <button class="dep-seta prox" type="button" aria-label="Próximo depoimento">›</button>
+  </div>
+  <div class="dep-dots" id="deps-dots"></div>
+</section>
+
+<!-- ============ OFERTA ============ -->
+<section class="oferta" id="oferta">
+  <div class="wrap centro">
+    <span class="tag">A oferta</span>
+    <div class="orn"><i></i><b></b><i></i></div>
+    <h2>Tudo em um só acesso, <span class="ouro">para sempre</span></h2>
+    <p class="sub" style="margin-top:12px">Pagamento único. Sem mensalidade.</p>
+
+    <div class="plano">
+      <span class="fita">Oferta de lançamento</span>
+      <div class="plano-nome">Coleção Completa · 50 Projetos de Japamalas</div>
+      <div class="plano-preco"><small>R$</small>17,90</div>
+      <p class="plano-obs">pagamento único · acesso imediato</p>
+      <ul class="inclui">
+        <li><span class="ckm">✓</span><span>50 japamalas e mini japamalas, cada um com uma pedra e uma intenção</span></li>
+        <li><span class="ckm">✓</span><span>100 páginas com a foto do japamala pronto, medidas, tempo e lista de materiais</span></li>
+        <li><span class="ckm">✓</span><span>O mapa da contagem das 108 contas e a montagem em 8 fotos, do primeiro nó até a borla</span></li>
+        <li><span class="ckm">✓</span><span>PDF para abrir no celular ou imprimir</span></li>
+        <li><span class="ckm">✓</span><span>Acesso vitalício</span></li>
+      </ul>
+      <hr class="divisor">
+      <div class="titulo-bonus">Em todo projeto, também</div>
+      <ul class="lista-bonus">
+        <li><svg class="ico"><use href="#i-coracao"/></svg><span><b>Como usar</b> o japamala na oração e na meditação</span></li>
+        <li><svg class="ico"><use href="#i-escudo"/></svg><span><b>Como cuidar</b> dele pra durar</span></li>
+        <li><svg class="ico"><use href="#i-joia"/></svg><span><b>Custo do material</b> e quanto cobrar se quiser vender</span></li>
+      </ul>
+      <!-- link vem da constante CHECKOUT no <head> -->
+      <a href="#checkout" class="btn full ir-checkout">QUERO ACESSAR TUDO!</a>
+      <div class="selos">
+        <span><svg class="ico"><use href="#i-cadeado"/></svg>Compra segura</span>
+        <span><svg class="ico"><use href="#i-escudo"/></svg>7 dias de garantia</span>
+        <span><svg class="ico"><use href="#i-raio"/></svg>Acesso imediato</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GARANTIA ============ -->
+<section class="garantia">
+  <div class="wrap estreito">
+    <div class="g-box">
+      <div class="selo"><b>7</b><span>dias</span></div>
+      <div>
+        <h3>Garantia de 7 dias</h3>
+        <p>Acesse o material, escolha um japamala e comece a montar. Se em até 7 dias você achar que não é para você, é só pedir o reembolso e devolvemos 100% do valor. Sem perguntas e sem burocracia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq">
+  <div class="wrap centro">
+    <span class="tag">Dúvidas</span>
+    <div class="orn"><i></i><b></b><i></i></div>
+    <h2>Perguntas frequentes</h2>
+
+    <div class="lista-faq">
+      <details open>
+        <summary>Preciso ter experiência para fazer?</summary>
+        <p>Não. Cada projeto mostra o japamala pronto, a lista de materiais, o mapa da contagem e as 8 etapas da montagem em foto. Comece pelos de nível Iniciante e deixe os avançados, com marcadoras e guru esculpida, para quando pegar o jeito.</p>
+      </details>
+      <details>
+        <summary>Que material eu preciso comprar?</summary>
+        <p>As contas do modelo (pedra, semente ou madeira), uma conta guru, fio de nylon, linha para a borla, agulha flexível, pinça fina, passa-fio, tesoura e cola de joalheria. Cada projeto traz a lista com a quantidade de cada item e o custo aproximado. Com sementes naturais, como açaí e lágrima-de-nossa-senhora, o material sai por uns R$ 30 a 35.</p>
+      </details>
+      <details>
+        <summary>Quanto tempo leva para fazer um japamala?</summary>
+        <p>Um japamala de 108 contas leva de 3h30 a 5 horas, dá para fazer numa tarde. Os mini japamalas de 54 contas ficam prontos em 2 a 2h30. Cada projeto mostra o tempo.</p>
+      </details>
+      <details>
+        <summary>Tem mini japamala?</summary>
+        <p>Tem. Além dos japamalas de 108 contas, o material traz mini japamalas de 54 contas e modelos de 27 contas para usar no pulso, mais rápidos de fazer e ótimos para presente.</p>
+      </details>
+      <details>
+        <summary>Japamala serve para a minha oração?</summary>
+        <p>O japamala é usado há milhares de anos para repetir uma oração sem perder a conta. Você pode usar com o seu mantra, com o Ho'oponopono, com a sua oração de sempre ou na meditação. Cada projeto mostra como usar.</p>
+      </details>
+      <details>
+        <summary>Como recebo o material?</summary>
+        <p>É tudo digital. Assim que o pagamento é aprovado, você recebe no e-mail o acesso ao PDF. Nada é enviado pelo correio.</p>
+      </details>
+      <details>
+        <summary>Consigo acessar pelo celular?</summary>
+        <p>Sim. O PDF abre em qualquer celular, tablet ou computador. Se preferir, imprima as páginas para acompanhar a montagem na mesa.</p>
+      </details>
+      <details>
+        <summary>Posso vender os japamalas que eu fizer?</summary>
+        <p>Pode. Os japamalas que você fizer são seus, e cada projeto traz o custo do material e uma sugestão de preço de venda. O que não é permitido é revender ou compartilhar os arquivos do material.</p>
+      </details>
+      <details>
+        <summary>E se eu não gostar?</summary>
+        <p>Você tem 7 dias de garantia. Se não ficar satisfeita, peça o reembolso e devolvemos o valor integral.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RODAPÉ ============ -->
+<section class="final">
+  <div class="wrap estreito">
+    <div class="orn" style="margin-top:0"><i></i><b></b><i></i></div>
+    <h2>O seu primeiro japamala começa aqui!</h2>
+    <p class="sub" style="margin:0 auto">Tenha acesso aos 50 projetos ilustrados e faça o seu japamala em casa, para usar, para presentear alguém que você ama ou para vender.</p>
+    <a href="#checkout" class="btn ir-checkout">QUERO ACESSAR TUDO!</a>
+    <div class="selos">
+      <span><svg class="ico"><use href="#i-cadeado"/></svg>Compra segura</span>
+      <span><svg class="ico"><use href="#i-escudo"/></svg>7 dias de garantia</span>
+      <span><svg class="ico"><use href="#i-raio"/></svg>Acesso imediato</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="links">50 PROJETOS DE JAPAMALAS ARTESANAIS</div>
+  <div>© 2026 — Todos os direitos reservados.</div>
+  <div>Produto digital, entregue por e-mail.</div>
+</footer>
+
+<script>
+  // Carrossel de páginas: desliza sozinho e continua arrastável (mesma função da miçanga).
+  // scrollLeft a cada quadro, não animação CSS: transform brigaria com o scroll nativo.
+  (function () {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    function deslizar(id) {
+      var trilho = document.getElementById(id);
+      if (!trilho) return;
+      var VELOCIDADE = 0.45, arrastando = false, acumulado = 0;
+      // só anda quando está na tela: fora dela, rolar a cada quadro só gasta o processador do celular
+      var visivel = !('IntersectionObserver' in window), rodando = false;
+      function meio() { return trilho.scrollWidth / 2; }
+      function quadro() {
+        if (!visivel) { rodando = false; return; }
+        if (!arrastando) {
+          acumulado += VELOCIDADE;
+          if (acumulado >= 1) { var p = Math.floor(acumulado); acumulado -= p; trilho.scrollLeft += p; }
+          if (trilho.scrollLeft >= meio()) trilho.scrollLeft -= meio();
+        }
+        requestAnimationFrame(quadro);
+      }
+      ['pointerdown', 'touchstart'].forEach(function (ev) {
+        trilho.addEventListener(ev, function () { arrastando = true; }, { passive: true });
+      });
+      ['pointerup', 'pointercancel', 'touchend', 'touchcancel', 'mouseleave'].forEach(function (ev) {
+        trilho.addEventListener(ev, function () { arrastando = false; }, { passive: true });
+      });
+      window.addEventListener('pointerup', function () { arrastando = false; }, { passive: true });
+      function ligar() { if (visivel && !rodando) { rodando = true; requestAnimationFrame(quadro); } }
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (e) { visivel = e[0].isIntersecting; ligar(); }).observe(trilho);
+      }
+      ligar();
+    }
+    deslizar('paginas');
+  })();
+
+  // Depoimentos em leque: anda de um em um e PARA 4,2 s em cada (dá tempo de ler).
+  (function () {
+    var secao = document.getElementById('depoimentos');
+    var palco = document.getElementById('deps');
+    var trilho = document.getElementById('deps-trilho');
+    var dots = document.getElementById('deps-dots');
+    if (!secao || !palco) return;
+
+    // ?previa=1 mostra 3 cartões de exemplo, só para ver a estrutura
+    if (/[?&]previa=1/.test(location.search) && !trilho.querySelector('.dep-slide')) {
+      for (var k = 1; k <= 3; k++) {
+        var f = document.createElement('figure');
+        f.className = 'dep-slide';
+        f.innerHTML = '<div class="dep-exemplo">[depoimento real aqui]<br>print ' + k + '</div>';
+        trilho.appendChild(f);
+      }
+    }
+
+    var slides = [].slice.call(trilho.querySelectorAll('.dep-slide'));
+    var total = slides.length;
+    if (!total) return;          // sem depoimento real: a seção continua escondida
+    secao.hidden = false;
+
+    var PARADA = 4200, atual = 0, timer = null;
+    var bolinhas = slides.map(function (_, i) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.setAttribute('aria-label', 'Ver depoimento ' + (i + 1));
+      b.addEventListener('click', function () { mostrar(i); reiniciar(); });
+      dots.appendChild(b);
+      return b;
+    });
+    function mostrar(n) {
+      atual = (n + total) % total;
+      slides.forEach(function (s, i) {
+        var d = (i - atual + total) % total;
+        s.className = 'dep-slide' + (d === 0 ? ' centro' : d === 1 ? ' dir' : d === total - 1 ? ' esq' : '');
+      });
+      bolinhas.forEach(function (b, i) { b.setAttribute('aria-current', i === atual ? 'true' : 'false'); });
+    }
+    function reiniciar() {
+      clearInterval(timer);
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) timer = setInterval(function () { mostrar(atual + 1); }, PARADA);
+    }
+    palco.querySelector('.dep-seta.ant').addEventListener('click', function () { mostrar(atual - 1); reiniciar(); });
+    palco.querySelector('.dep-seta.prox').addEventListener('click', function () { mostrar(atual + 1); reiniciar(); });
+    var x0 = null;
+    palco.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+    palco.addEventListener('touchend', function (e) {
+      if (x0 === null) return;
+      var dx = e.changedTouches[0].clientX - x0;
+      if (Math.abs(dx) > 40) { mostrar(atual + (dx < 0 ? 1 : -1)); reiniciar(); }
+      x0 = null;
+    }, { passive: true });
+    mostrar(0);
+    reiniciar();
+  })();
+</script>
+
+</body>
+</html>
+
