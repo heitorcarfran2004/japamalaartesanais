@@ -2,8 +2,7 @@
 <!-- LP de "50 Projetos de Japamalas Artesanais" (PT-BR). Adaptada em 06/11/2026 da LP das Guias de Contas
      (funis/guias-de-contas): mesma estrutura, ritmo de secoes, botoes, oferta e back redirect (index -> promo.html).
      Head/scripts no padrao do Terco de Pulso (funis/tercos-de-pulso). Todas as imagens em img/ sao do entregavel real
-     (capa D1 e paginas), geradas por _geracao/imagens.cjs, sem IA. Sem bonus e sem order bump: a secao de bonus do
-     molde virou "em todo projeto" (o que ja esta no PDF). Depoimentos: escondidos ate ter print real. -->
+     (capa D1 e paginas), geradas por _geracao/imagens.cjs, sem IA. Sem order bump. 4 bonus com capas do ChatGPT em img/bonus (06/11). Depoimentos: escondidos ate ter print real. -->
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
@@ -45,7 +44,7 @@
        2. SAÍDA     -> LINK_SAIDA (back redirect) já ligado em promo.html (R$ 9,90, checkout na promo.html)
      ============================================================ -->
 <script>
-  // 1. CHECKOUT (Wiapy). Plano único de R$ 17,90: 50 projetos em PDF.
+  // 1. CHECKOUT (Wiapy). Plano único de R$ 17,90: 50 projetos em PDF + 4 bônus.
   //    Troque SÓ esta linha. Todos os botões de compra da página leem daqui.
   window.CHECKOUT = 'https://pay.wiapy.com/YMcE7dtj3H-';
 
@@ -409,7 +408,7 @@
 <!-- ============ BARRA ============ -->
 <div class="barra">
   <div class="l1">Oferta de lançamento</div>
-  <div class="l2">50 projetos de japamalas por R$ 17,90</div>
+  <div class="l2">50 projetos + 4 bônus por R$ 17,90</div>
 </div>
 
 <!-- ============ HERO ============ -->
@@ -573,31 +572,31 @@
   </div>
 </section>
 
-<!-- ============ EM TODO PROJETO (no lugar dos bônus do molde) ============
-     Não há bônus definidos: estes 4 cartões mostram o que JÁ ESTÁ em cada projeto do PDF.
-     Imagens = recortes reais das páginas (img/dentro/, feitas por _geracao/imagens.cjs). -->
+<!-- ============ BÔNUS ============
+     Capas geradas no ChatGPT (06/11/2026) no modelo do card de bônus de Guias de Contas: _geracao/bonus/ (montar.cjs, p1..p4.txt, b1..b4.png).
+     Os 4 PDFs dos bônus ainda não existem: precisam ser feitos antes de vender. -->
 <section class="bonus">
   <div class="wrap centro">
-    <span class="tag clara">Em todo projeto</span>
+    <span class="tag clara">Bônus inclusos</span>
     <div class="orn"><i></i><b></b><i></i></div>
-    <h2>E cada projeto ainda traz o que quase ninguém ensina!</h2>
+    <h2>Você também recebe 4 bônus para ir além da montagem!</h2>
 
     <div class="bonus-lista">
       <div class="card-bonus">
-        <div class="capa-bonus"><img src="img/dentro/mapa.webp" srcset="img/dentro/mapa-400.webp 400w, img/dentro/mapa.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="O mapa da contagem de um japamala de 108 contas e de um mini japamala de 54"></div>
-        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-esquema"/></svg>MAPA DA CONTAGEM</span><b>Onde fica cada grupo de 27 contas</b><span>As contas desenhadas em volta do japamala, com a guru e a borla, pra você conferir o total em 27, 54, 81 e 108.</span></div>
+        <div class="capa-bonus"><img src="img/bonus/b1.webp" srcset="img/bonus/b1-400.webp 400w, img/bonus/b1.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="Capa do Bônus 01, Guia das 50 Pedras e Seus Significados"></div>
+        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-presente"/></svg>BÔNUS 01</span><b>Guia das 50 Pedras e Seus Significados</b><span>Fotos, nomes, cores e significados simbólicos das pedras naturais, pra você escolher a pedra certa para cada japamala.</span></div>
       </div>
       <div class="card-bonus">
-        <div class="capa-bonus"><img src="img/dentro/borla.webp" srcset="img/dentro/borla-400.webp 400w, img/dentro/borla.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="As fotos do fechamento na guru e da borla, passo a passo"></div>
-        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-no"/></svg>FECHAMENTO E BORLA</span><b>Do fechamento na guru até a borla</b><span>Como passar as 2 pontas pela guru, enrolar a borla, amarrar o pescoço e dar o acabamento, foto por foto.</span></div>
+        <div class="capa-bonus"><img src="img/bonus/b2.webp" srcset="img/bonus/b2-400.webp 400w, img/bonus/b2.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="Capa do Bônus 02, 30 Orações e Mantras para Japamalas"></div>
+        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-presente"/></svg>BÔNUS 02</span><b>30 Orações e Mantras para Japamalas</b><span>Orações, afirmações e mantras para acompanhar a sua meditação, conta por conta.</span></div>
       </div>
       <div class="card-bonus">
-        <div class="capa-bonus"><img src="img/dentro/usar.webp" srcset="img/dentro/usar-400.webp 400w, img/dentro/usar.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="As faixas Como usar, Cuidados e Para vender de dois projetos"></div>
-        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-coracao"/></svg>COMO USAR E CUIDAR</span><b>Na oração, na meditação e no dia a dia</b><span>Como usar o seu japamala na oração e na meditação, como cuidar dele pra durar e como embalar pra presentear ou vender.</span></div>
+        <div class="capa-bonus"><img src="img/bonus/b3.webp" srcset="img/bonus/b3-400.webp 400w, img/bonus/b3.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="Capa do Bônus 03, Guia de Nós, Borlas e Acabamentos"></div>
+        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-presente"/></svg>BÔNUS 03</span><b>Guia de Nós, Borlas e Acabamentos</b><span>15 técnicas ilustradas para deixar as suas peças mais bonitas, firmes e bem acabadas.</span></div>
       </div>
       <div class="card-bonus">
-        <div class="capa-bonus"><img src="img/dentro/preco.webp" srcset="img/dentro/preco-400.webp 400w, img/dentro/preco.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="Nível, tempo, tamanho, custo e preço de venda de dois projetos"></div>
-        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-joia"/></svg>CUSTO E PREÇO</span><b>Quanto custa e quanto cobrar</b><span>O nível, o tempo, o tamanho, o custo do material e uma sugestão de preço de venda de cada japamala.</span></div>
+        <div class="capa-bonus"><img src="img/bonus/b4.webp" srcset="img/bonus/b4-400.webp 400w, img/bonus/b4.webp 680w" sizes="(max-width:720px) 92vw, 530px" width="680" height="383" loading="lazy" alt="Capa do Bônus 04, 21 Dias de Meditação com Japamala"></div>
+        <div class="txt-bonus"><span class="num-b"><svg class="ico"><use href="#i-presente"/></svg>BÔNUS 04</span><b>21 Dias de Meditação com Japamala</b><span>Um programa diário de meditação guiada, com textos e exercícios para criar o hábito em 21 dias.</span></div>
       </div>
     </div>
   </div>
@@ -643,15 +642,17 @@
         <li><span class="ckm">✓</span><span>50 japamalas e mini japamalas, cada um com uma pedra e uma intenção</span></li>
         <li><span class="ckm">✓</span><span>100 páginas com a foto do japamala pronto, medidas, tempo e lista de materiais</span></li>
         <li><span class="ckm">✓</span><span>O mapa da contagem das 108 contas e a montagem em 8 fotos, do primeiro nó até a borla</span></li>
+        <li><span class="ckm">✓</span><span>Como usar, como cuidar e quanto cobrar, em todo projeto</span></li>
         <li><span class="ckm">✓</span><span>PDF para abrir no celular ou imprimir</span></li>
         <li><span class="ckm">✓</span><span>Acesso vitalício</span></li>
       </ul>
       <hr class="divisor">
-      <div class="titulo-bonus">Em todo projeto, também</div>
+      <div class="titulo-bonus">+ 4 bônus inclusos</div>
       <ul class="lista-bonus">
-        <li><svg class="ico"><use href="#i-coracao"/></svg><span><b>Como usar</b> o japamala na oração e na meditação</span></li>
-        <li><svg class="ico"><use href="#i-escudo"/></svg><span><b>Como cuidar</b> dele pra durar</span></li>
-        <li><svg class="ico"><use href="#i-joia"/></svg><span><b>Custo do material</b> e quanto cobrar se quiser vender</span></li>
+        <li><svg class="ico"><use href="#i-presente"/></svg><span><b>BÔNUS 01:</b> Guia das 50 Pedras e Seus Significados</span></li>
+        <li><svg class="ico"><use href="#i-presente"/></svg><span><b>BÔNUS 02:</b> 30 Orações e Mantras para Japamalas</span></li>
+        <li><svg class="ico"><use href="#i-presente"/></svg><span><b>BÔNUS 03:</b> Guia de Nós, Borlas e Acabamentos</span></li>
+        <li><svg class="ico"><use href="#i-presente"/></svg><span><b>BÔNUS 04:</b> 21 Dias de Meditação com Japamala</span></li>
       </ul>
       <!-- link vem da constante CHECKOUT no <head> -->
       <a href="#checkout" class="btn full ir-checkout">QUERO ACESSAR TUDO!</a>
@@ -703,7 +704,7 @@
       </details>
       <details>
         <summary>Japamala serve para a minha oração?</summary>
-        <p>O japamala é usado há milhares de anos para repetir uma oração sem perder a conta. Você pode usar com o seu mantra, com o Ho'oponopono, com a sua oração de sempre ou na meditação. Cada projeto mostra como usar.</p>
+        <p>O japamala é usado há milhares de anos para repetir uma oração sem perder a conta. Você pode usar com o seu mantra, com o Ho'oponopono, com a sua oração de sempre ou na meditação. Cada projeto mostra como usar, e o Bônus 02 traz 30 orações e mantras para acompanhar.</p>
       </details>
       <details>
         <summary>Como recebo o material?</summary>
@@ -730,7 +731,7 @@
   <div class="wrap estreito">
     <div class="orn" style="margin-top:0"><i></i><b></b><i></i></div>
     <h2>O seu primeiro japamala começa aqui!</h2>
-    <p class="sub" style="margin:0 auto">Tenha acesso aos 50 projetos ilustrados e faça o seu japamala em casa, para usar, para presentear alguém que você ama ou para vender.</p>
+    <p class="sub" style="margin:0 auto">Tenha acesso aos 50 projetos ilustrados e aos 4 bônus e faça o seu japamala em casa, para usar, para presentear alguém que você ama ou para vender.</p>
     <a href="#checkout" class="btn ir-checkout">QUERO ACESSAR TUDO!</a>
     <div class="selos">
       <span><svg class="ico"><use href="#i-cadeado"/></svg>Compra segura</span>
